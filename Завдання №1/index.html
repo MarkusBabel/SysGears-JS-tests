@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Конвертер відстаней</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="converter-container">
+        <h1>Конвертер відстаней</h1>
+
+        <label>Введіть відстань:</label>
+        <input type="number" id="distanceInput">
+        
+        <label>Виберіть одиниці виміру:</label>
+        <select id="unitFrom"></select>
+        
+        <label>Виберіть одиниці для конвертації:</label>
+        <select id="unitTo"></select>
+        
+        <button onclick="convertDistance()">Конвертувати</button>
+        
+        <p id="result"></p>
+        <p class="error-message" id="errorMessage"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

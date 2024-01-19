@@ -1,0 +1,12 @@
+{
+    "units": [
+      {"key": "m", "label": "Метри (m)"},
+      {"key": "cm", "label": "Сантиметри (cm)"},
+      {"key": "in", "label": "Дюйми (in)"},
+      {"key": "ft", "label": "Фути (ft)"},
+      {"key": "mm", "label": "Міліметри (mm)"},
+      {"key": "yd", "label": "Ярди (yd)"},
+      {"key": "km", "label": "Кілометри (km)"}
+    ]
+  }
+  

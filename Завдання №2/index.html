@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JSON Viewer</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>JSON Viewer</h1>
+      <textarea
+        id="jsonInput"
+        rows="10"
+        cols="50"
+        placeholder="Введіть JSON об'єкт зі списком даних (data) та умовою для обробки (condition)"
+      ></textarea>
+      <button id="viewButton">Вивести JSON</button>
+      <a id="downloadLink" class="download-link">Завантажити JSON</a>
+      <div id="output"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
